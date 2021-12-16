@@ -55,7 +55,7 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource,TableViewHucr
         
         cell.kisiAdiLabel.text = gelenKisi.kisiAd
         cell .hucreProtokol = self
-        cell.indexPath = self
+        cell.indexPath = indexPath
         return cell
     }
     //tıklandığı zaman çalışır

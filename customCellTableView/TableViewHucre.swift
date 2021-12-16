@@ -6,10 +6,15 @@
 //
 
 import UIKit
-
+protocol TableViewHucreProtocol {
+    func hucreIcindekiButonTiklandi(indexPath:IndexPath)  {
+    
+    }
+}
 class TableViewHucre: UITableViewCell {
     @IBOutlet weak var kisiAdiLabel: UILabel!
-    
+    var hucreProtokol:TableViewHucreProtocol?
+    var indexPath:IndexPath?
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -21,4 +26,7 @@ class TableViewHucre: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    @IBAction func buttonTikla(_ sender: Any) {
+        hucreProtokol?.hucreIcindekiButonTiklandi(indexPath: indexPath!)
+    }
 }

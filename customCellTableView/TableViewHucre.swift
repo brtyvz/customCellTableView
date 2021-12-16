@@ -7,9 +7,7 @@
 
 import UIKit
 protocol TableViewHucreProtocol {
-    func hucreIcindekiButonTiklandi(indexPath:IndexPath)  {
-    
-    }
+    func hucreIcindekiButonTiklandi(indexPath:IndexPath) 
 }
 class TableViewHucre: UITableViewCell {
     @IBOutlet weak var kisiAdiLabel: UILabel!

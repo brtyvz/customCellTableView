@@ -52,5 +52,11 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
         cell.kisiAdiLabel.text = gelenKisi.kisiAd
         return cell
     }
+    //tıklandığı zaman çalışır
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let gelenKisi = kisilerListe[indexPath.row]
+        print("Adı:\(gelenKisi.kisiAd!) teli: \(gelenKisi.kisiTel!)  id:\(gelenKisi.kisiId!)")
+    }
 
 }

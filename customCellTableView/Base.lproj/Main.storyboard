@@ -21,25 +21,22 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="kisilerHucre" id="hby-H1-Psw" customClass="TableViewHucre" customModule="customCellTableView" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="24.5"/>
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hby-H1-Psw" id="x7m-Dc-xed">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="24.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TfW-lI-vMw">
-                                                    <rect key="frame" x="186" y="11" width="71" height="18.5"/>
+                                                    <rect key="frame" x="188.5" y="11" width="37.5" height="18"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <color key="textColor" systemColor="linkColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="TfW-lI-vMw" firstAttribute="top" secondItem="x7m-Dc-xed" secondAttribute="top" constant="11" id="7vE-cI-6IH"/>
-                                                <constraint firstAttribute="bottom" secondItem="TfW-lI-vMw" secondAttribute="bottom" constant="-5" id="ZiR-uh-AxJ"/>
-                                                <constraint firstItem="TfW-lI-vMw" firstAttribute="leading" secondItem="x7m-Dc-xed" secondAttribute="leading" constant="186" id="lTe-hS-2RN"/>
-                                                <constraint firstAttribute="trailing" secondItem="TfW-lI-vMw" secondAttribute="trailing" constant="157" id="t5q-MQ-URv"/>
-                                                <constraint firstItem="TfW-lI-vMw" firstAttribute="centerX" secondItem="x7m-Dc-xed" secondAttribute="centerX" id="xDU-tn-3aU"/>
+                                                <constraint firstItem="TfW-lI-vMw" firstAttribute="top" secondItem="x7m-Dc-xed" secondAttribute="topMargin" id="1wB-YH-fDg"/>
+                                                <constraint firstItem="TfW-lI-vMw" firstAttribute="centerX" secondItem="x7m-Dc-xed" secondAttribute="centerX" id="oLL-Wi-EhB"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
